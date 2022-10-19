@@ -1,0 +1,144 @@
+p,h1{
+	font-family: 'Kanit', sans-serif;
+}
+
+#space2{
+	position: absolute;
+    right: 0;
+}
+
+#header a{
+	float:right;
+	margin-right:100px;
+	margin-top:5px;
+	background-color: white;
+	border: black;
+	border-style:solid;
+	border-width: thick;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 16px;
+	text-decoration:none;
+}
+
+#header{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+#header a:hover{
+	color: black;
+	border: thick solid white;
+	background-color: #fae5d3;
+}
+
+#header h1,p{
+	margin: 0px 0px 0px 0px; 
+	padding: 0px 0px 0px 0px;
+}
+
+#container img{
+	border-radius: 400px 10px;
+	width: auto;  
+	height: 400px;
+    float:right;
+	padding-right: 350px;
+	border-radius: 400px 10px;
+	width: auto;  
+	height: 500px;
+}
+
+#container{
+	background-image:url('cover.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+#container h1 {
+	padding-top:30px;
+    padding-left: 350px;
+	font-size:70px;
+}
+
+#container p {
+	padding-top:20px;
+    padding-left: 350px;
+	font-size:40px;
+}
+
+#container2 img{
+	border-radius: 400px 10px;
+	width: auto;  
+	height: 400px;
+    float:left;
+	padding-left: 50px;
+	border-radius: 100px;
+	width: 600px;  
+	height: 300px;
+}
+
+#container2{
+	padding-top:50px;
+	background-image:url('cover.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	padding-bottom:50px;
+}
+
+#container2 h1 {
+	margin: 50px 0px 0px 0px; 
+	padding: 0px 0px 0px 30px;
+	font-size:70px;
+}
+
+#container2 p {
+	margin: 0px 0px 0px 30px; 
+	padding: 0px 0px 0px 30px;
+	font-size:40px;
+}
+
+#footer a{
+	float:right;
+	margin-right:100px;
+	margin-top:5px;
+	background-color: white;
+	border: black;
+	border-style:solid;
+	border-width: thick;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 16px;
+	text-decoration:none;
+}
+
+#footer img{
+	width: 20px;  
+	height: 20px;
+}
+
+#footer{
+  position: relative;
+  top: 20px;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+#footer a:hover{
+	color: white;
+	border: thick solid white;
+	background-color:  #fae5d3 ;
+}
+
+#footer h1,p{
+	margin: 0px 0px 0px 0px; 
+	padding: 0px 0px 0px 0px;
+}
