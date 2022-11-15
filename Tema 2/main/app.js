@@ -7,7 +7,7 @@ function addTokens(input, tokens){
 		throw new Error('Input should have at least 6 characters');
 	}
 	for(let i in tokens){ 
-	if(typeof tokens[0].tokenName !== 'string'){
+	if(typeof tokens[i].tokenName !== 'string'){
 		throw new Error('Invalid array format');
 	}}
 	if(input.search(/[...]/)==-1){
